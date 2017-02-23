@@ -14,14 +14,14 @@
     </author>
 
     <!--<gap:plugin name="com.sharinglabs.cordova.plugin.cache" version="1.0.0" />-->
-    <gap:plugin name="com.phonegap.plugins.barcodescanner"/>
+    <gap:plugin name="com.phonegap.plugins.barcodescanner" source="npm" />
 
-    <gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
-    <gap:plugin name="com.brodysoft.sqliteplugin" version="1.0.0" />
+    <gap:plugin name="org.apache.cordova.network-information" source="npm" version="0.2.12" />
+    <gap:plugin name="com.brodysoft.sqliteplugin" source="npm" version="1.0.0" />
     <!--<gap:plugin name="com.chanthu.evri.gcs-file-transfer" version="1.0.0" />
     <plugin name="File" value="org.apache.cordova.FileUtils" />-->
-    <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.6" />
-    <gap:plugin name="org.apache.cordova.file" version="1.3.1" />
+    <gap:plugin name="org.apache.cordova.file-transfer" source="npm" version="0.4.6" />
+    <gap:plugin name="org.apache.cordova.file" source="npm" version="1.3.1" />
 
 
    <!-- <gap:plugin name="com.millerjames01.sqlite-plugin" version="1.0.1" />
