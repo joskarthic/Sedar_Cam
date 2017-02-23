@@ -17,7 +17,7 @@
     <gap:plugin name="com.phonegap.plugins.barcodescanner" source="npm" />
 
     <gap:plugin name="org.apache.cordova.network-information" source="npm" version="0.2.12" />
-    <gap:plugin name="com.brodysoft.sqliteplugin" source="npm"  />
+  <!--   <gap:plugin name="com.brodysoft.sqliteplugin" source="npm"  /> -->
     <!--<gap:plugin name="com.chanthu.evri.gcs-file-transfer" version="1.0.0" />
     <plugin name="File" value="org.apache.cordova.FileUtils" />-->
     <gap:plugin name="org.apache.cordova.file-transfer" source="npm"  />
