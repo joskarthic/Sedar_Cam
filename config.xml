@@ -16,12 +16,12 @@
     <!--<gap:plugin name="com.sharinglabs.cordova.plugin.cache" version="1.0.0" />-->
     <!-- <gap:plugin name="com.phonegap.plugins.barcodescanner"/> -->
     <plugin spec="https://github.com/phonegap/phonegap-plugin-barcodescanner.git" source="git"/>
-    <plugin name="org.apache.cordova.network-information"  />
+    <plugin name="org.apache.cordova.network-information" source="npm" />
    <!--  <plugin name="com.brodysoft.sqliteplugin"  /> -->
     <!--<gap:plugin name="com.chanthu.evri.gcs-file-transfer" version="1.0.0" />
     <plugin name="File" value="org.apache.cordova.FileUtils" />-->
-    <plugin name="org.apache.cordova.file-transfer"  />
-    <plugin name="org.apache.cordova.file"  />
+   <!--  <plugin name="org.apache.cordova.file-transfer"  />
+    <plugin name="org.apache.cordova.file"  /> -->
 
 
    <!-- <gap:plugin name="com.millerjames01.sqlite-plugin" version="1.0.1" />
