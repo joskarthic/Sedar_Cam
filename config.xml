@@ -17,9 +17,12 @@
   <preference name="android-minSdkVersion" value="16"/>
   <preference name="BackupWebStorage" value="none"/>
   <preference name="SplashScreen" value="screen"/>
-  <plugin spec="https://github.com/karthibala/pushPlugin.git" source="git" />
-  <plugin name="network-information" value="cordova-plugin-network-information" />
-  <plugin name="barcodescanner" value="cordova-plugin-barcodescanner" />
+  
+  <plugin name="cordova-plugin-file" source="npm"/>
+  <plugin name="cordova-plugin-file-transfer" source="npm"/>
+  <plugin name="cordova-plugin-network-information" source="npm" />
+  <plugin name="cordova-plugin-barcodescanner" source="npm" />
+  
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
