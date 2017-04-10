@@ -162,8 +162,8 @@ function formsubmit() {
 			$.ajax({
 				type: "POST",
 				url: "http://wave.elasticbeanstalk.com/app/ajax_execution.php",
-				//data :  'uname='+name+'&password='+password ,
-				data:{uname:name,password:password},
+				data :  'uname='+name+'&password='+password ,
+				//data:{uname:name,password:password},
 				dataType: "json",
 				processData: false,
 				success: function(json) {
