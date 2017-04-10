@@ -503,7 +503,7 @@ var product_sync6 = localStorage.getItem("product_sync6");
 
 var count = Number(product_sync) + Number(product_sync1) + Number(product_sync2) + Number(product_sync3)+ Number(product_sync4)+ Number(product_sync5)+ Number(product_sync6);
 
-alert("count--"+count);
+//alert("count--"+count);
 localStorage.setItem("productlist_count", count);
 }
 
@@ -542,7 +542,7 @@ function product_sync6() {
 							//product_sync7();
 							alert('Database synchronization completed! Data Count:'+ localStorage.getItem("server_item_count"));
 							$("#product_sync5").addClass("hide");
-							window.location.reload();
+							//window.location.reload();
 							count_data();
 						}
 					}
