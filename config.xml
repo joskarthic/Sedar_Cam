@@ -16,10 +16,10 @@
     <!--<gap:plugin name="com.sharinglabs.cordova.plugin.cache" version="1.0.0" />-->
     <!-- <gap:plugin name="com.phonegap.plugins.barcodescanner"/> -->
     
-	<gap:plugin name="cordova-plugin-barcodescanner" />
-	<gap:plugin name="cordova-plugin-file" />
-    <gap:plugin name="cordova-plugin-file-transfer" />
-	<gap:plugin name="cordova-plugin-network-information" />
+	<plugin spec="https://github.com/wildabeast/BarcodeScanner.git" source="git" />
+	<!-- <plugin spec="cordova-plugin-file" source="git" /> -->
+    <!-- <plugin spec="cordova-plugin-file-transfer" source="git" /> -->
+	<plugin spec="https://github.com/apache/cordova-plugin-network-information.git" source="git" />
 	
 	
     <!-- <gap:plugin name="net.tunts.webintent" version="0.2.1" /> -->
