@@ -126,7 +126,7 @@ function onDeviceReady() {
 
             
 function formsubmit() {
-	
+	alert("Onclick");
 	var networkState = navigator.network.connection.type;
 	var states = {};
 	states[Connection.UNKNOWN] = 'Unknown connection';
@@ -136,7 +136,7 @@ function formsubmit() {
 	states[Connection.CELL_3G] = 'Cell 3G connection';
 	states[Connection.CELL_4G] = 'Cell 4G connection';
 	states[Connection.NONE] = 'No network connection';
-	//alert('Connection type: ' + states[networkState]);
+	alert('Connection type: ' + states[networkState]);
         
         var network_status = states[networkState];
 	
