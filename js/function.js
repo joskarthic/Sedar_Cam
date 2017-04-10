@@ -163,11 +163,9 @@ function formsubmit() {
 				type: "POST",
 				url: "http://wave.elasticbeanstalk.com/app/ajax_execution.php",
 				data :  'uname='+name+'&password='+password ,
-				//data:{uname:name,password:password},
 				dataType: "json",
 				processData: false,
 				success: function(json) {
-					alert(JSON.stringify(json));
 					if (json.login_status=='Success') {
 						window.open('scan.html', '_blank','location=no');
 						
@@ -181,9 +179,6 @@ function formsubmit() {
 					}else{
 						alert('Incorrect Username and Password');
 					}
-				},error: function (xhr, ajaxOptions, thrownError) {
-					alert("Error");
-					alert(JSON.stringify(xhr));alert(JSON.stringify(ajaxOptions));alert(JSON.stringify(thrownError));
 				}
 			});
 		}
