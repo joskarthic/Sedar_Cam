@@ -162,7 +162,7 @@
 <script>
  function update_check() {
 	//update check
-	alert("update check");
+	//alert("update check"); 
 	admin_user();
 	//totalitem_count();
 	var name='wave';
@@ -174,10 +174,10 @@
 		async: false,
 		processData: false,
 		success:function (json) {  
-			
+			alert(json.product_count/1000);
 			var produc_row_count = json.product_count;
 			var productlist_count = localStorage.getItem("productlist_count");
-			alert('ajax server count'+produc_row_count);
+			//alert('ajax server count'+produc_row_count);
 			//alert('ajax local Count'+productlist_count);
 			localStorage.setItem("server_item_count", produc_row_count);
 			document.getElementById("serveritem_count").innerHTML = produc_row_count;
@@ -680,7 +680,7 @@ if(user_name==null){
 		success:function (json) {
 			var ajaxlength = json.rows.length;
 			
-			alert("inside modified"+ajaxlength);
+			//alert("inside modified"+ajaxlength);
 			var db = window.openDatabase("Database", "1.0", "PhoneGap Demo", 100*100*1024);
 			db.transaction(function(tx){
 				var j=0;
