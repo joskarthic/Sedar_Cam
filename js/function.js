@@ -180,6 +180,9 @@ function formsubmit() {
 					}else{
 						alert('Incorrect Username and Password');
 					}
+				},error: function (xhr, ajaxOptions, thrownError) {
+					alert("Error");
+					alert(xhr);alert(ajaxOptions);alert(thrownError);
 				}
 			});
 		}
