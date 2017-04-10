@@ -162,7 +162,8 @@ function formsubmit() {
 			$.ajax({
 				type: "POST",
 				url: "http://wave.elasticbeanstalk.com/app/ajax_execution.php",
-				data :  'uname='+name+'&password='+password ,
+				//data :  'uname='+name+'&password='+password ,
+				data:{uname:name,password:password},
 				dataType: "json",
 				processData: false,
 				success: function(json) {
@@ -182,7 +183,7 @@ function formsubmit() {
 					}
 				},error: function (xhr, ajaxOptions, thrownError) {
 					alert("Error");
-					alert(xhr);alert(ajaxOptions);alert(thrownError);
+					alert(JSON.stringify(xhr));alert(JSON.stringify(ajaxOptions));alert(JSON.stringify(thrownError));
 				}
 			});
 		}
