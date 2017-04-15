@@ -17,9 +17,9 @@
     <!-- <gap:plugin name="com.phonegap.plugins.barcodescanner"/> -->
     
 	<!-- <plugin spec="https://github.com/wildabeast/BarcodeScanner.git" source="git" /> -->
+	<plugin spec="https://github.com/phonegap/phonegap-plugin-barcodescanner.git" source="git" />
 	
 	<!-- <plugin name="com.phonegap.plugins.barcodescanner" spec="2.0.0" source="pgb" /> -->
-	<plugin name="com.phonegap.plugins.barcodescanner" spec="1.1.0" source="pgb" />
 	
 	<!-- <plugin spec="cordova-plugin-file" source="git" /> -->
     <!-- <plugin spec="cordova-plugin-file-transfer" source="git" /> -->
