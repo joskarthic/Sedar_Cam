@@ -20,7 +20,7 @@
 	<!-- <plugin spec="https://github.com/phonegap/phonegap-plugin-barcodescanner.git" source="git" /> -->
 	
 	
-	<plugin name="com.manateeworks.barcodescanner" spec="1.6.1" source="pgb" />
+	<plugin name="com.manateeworks.barcodescanner" source="pgb" />
 	
 	
 	<!-- <plugin name="com.phonegap.plugins.barcodescanner" spec="2.0.0" source="pgb" /> -->
