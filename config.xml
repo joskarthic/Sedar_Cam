@@ -17,10 +17,7 @@
     <!-- <gap:plugin name="com.phonegap.plugins.barcodescanner"/> -->
     
 	<!-- <plugin spec="https://github.com/wildabeast/BarcodeScanner.git" source="git" /> -->
-	<!-- <plugin spec="https://github.com/phonegap/phonegap-plugin-barcodescanner.git" source="git" /> -->
-	
-	
-	<plugin name="com.manateeworks.barcodescanner" source="pgb" />
+	<gap:plugin spec="https://github.com/phonegap/phonegap-plugin-barcodescanner.git" source="git" />
 	
 	
 	<!-- <plugin name="com.phonegap.plugins.barcodescanner" spec="2.0.0" source="pgb" /> -->
